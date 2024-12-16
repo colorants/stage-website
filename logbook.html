@@ -77,8 +77,9 @@
             <!-- Period 4 -->
             <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
                 <h4 class="text-lg font-semibold text-red-500">Periode 4: Afwerken</h4>
-                <p class="mt-2 text-gray-200">lorem ipsum <a href="#" data-modal-toggle="modal4"><i
-                        class="material-icons" style="font-size:19px">info</i></a></p>
+                <p class="mt-2 text-gray-200">In deze periode heb ik Tobias de applicatie vaak laten zien en gebruiken zodat hij feedback kon geven. Dit waren vooral UI veranderingen en geen drastische backend dingen.
+                    Deze opdracht is eigenlijk de grootste opdracht die ik tot nu toe heb gedaan en ook de opdracht waar ik de meeste tijd in heb gestopt. Zo gebruik ik 3 verschillende api's en deze gebruiken elkaar.
+                    De versies van een bepaalde package worden uit een GitHub repository gehaald, hierna worden die gecheckt of ze nog up-to-date zijn, ook haal ik d.m.v TransIP (De hosting site van 23G) de huidige beheerde domeinen op.</p>
             </div>
         </div>
     </section>
@@ -159,7 +160,6 @@
 </div>
 
 <script>
-    // Modal toggle functie
     document.querySelectorAll('[data-modal-toggle]').forEach(item => {
         item.addEventListener('click', event => {
             const modalId = item.getAttribute('data-modal-toggle');
@@ -168,7 +168,6 @@
         });
     });
 
-    // Sluit modal bij klikken buiten de modal inhoud
     document.querySelectorAll('.fixed.inset-0').forEach(modalBackground => {
         modalBackground.addEventListener('click', event => {
             if (event.target === modalBackground) {
